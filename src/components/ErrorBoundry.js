@@ -13,7 +13,7 @@ componentDidCatch(error, info) {
 }
 
 	render() {
-		if (this.state.hassError) {
+		if (this.state.hasError) {
 			return <h1>Oops, Something Went Wrong</h1>
 		}
 		return this.props.children
